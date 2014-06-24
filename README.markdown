@@ -36,7 +36,7 @@ In your project build.gradle file add the following dependency:
 If you have problems with the support-v4 (multiple dex files) then exclude the support-v4 in the dependency section:
 
     dependencies {
-        compile 'com.android.support:support-v4:19.0.0'
+        compile 'com.android.support:support-v4:19.1.0'
         compile(project(':aFileChooser:aFileChooser')) {
             exclude module: 'support-v4'
         }

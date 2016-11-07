@@ -1,2 +1,2 @@
-include 'aFileChooser'
-include 'aFileChooserExample'
+include ':aFileChooser'
+include ':aFileChooserExample'

@@ -1,12 +1,12 @@
-apply plugin: 'android'
+apply plugin: 'com.android.application'
 
 dependencies {
     compile project(':aFileChooser')
 }
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion = "24.0.2"
+    compileSdkVersion 24
+    buildToolsVersion = "24.0.3"
 
     sourceSets {
         main {
